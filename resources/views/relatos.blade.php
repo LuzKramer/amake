@@ -4,8 +4,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <h1>amakê</h1>
-                sdfgsdfgdsfgsdg
+                @foreach ($relatos as $relato)
+
+                    <h1>{{ $relato->texto }}</h1>
+                @endforeach
             </div>
         </div>
     </div>
